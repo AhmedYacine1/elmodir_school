@@ -2,79 +2,34 @@
 # Flutter/Dart specific
 .dart_tool/
 .build/
-.packages
-flutter_export_environment.sh
 **/ios/.generated/
 **/android/.generated/
+**/lib/*.g.dart
+**/lib/*.freezed.dart
+**/lib/l10n/*.dart
+**/lib/generated_plugin_registrant.dart
 
 # Dependencies
-pubspec.lock
+.pub/
+.packages
 
-# Generated plugin build files
-**/android/key.properties
-**/android/gradle.properties
-**/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+# Build outputs
+/build/
+/coverage/
 
-# Coverage
-coverage/
-
-# Temporary upload directories
-/uploads/
-
-# Log
-logs/
-*.log
-
-# Environment
+# Environment variables
 .env
 .env.local
 *.env.*
 
-# IDE
-.idea/
+# IDE files
 .vscode/
-*.swp
-*.swo
+.idea/
+*.iml
+*.ipr
+*.iws
 
-# OS
+# OS generated files
 .DS_Store
 Thumbs.db
-
-# Build artifacts
-bin/
-build/
-dist/
-
-# Python (if any Python tools used)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-env/
-.venv/
-
-# Node (if any Node tools used)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Gradle (if Android build)
-.gradle/
-build/
-
-# MyPy (if Python linting)
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# PyTest (if Python testing)
-.pytest_cache/
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
 ```
